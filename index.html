@@ -13,19 +13,19 @@
         <div class="w-[90vw] mx-auto my-3 rounded-full h-16 bg-black/1 backdrop-blur-xs px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
             <!---Name-->
             <div class="flex items-center ">
-                <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk] blur-[1px] hover:blur-[0px]">Nikhil</h6>
-                <span class="text-5xl text-[#c8f04d] mb-7 blur-[1px] hover:blur-[0]">.</span>
+                <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk] sm:blur-[1px] hover:blur-[0px]">Nikhil</h6>
+                <span class="text-5xl text-[#c8f04d] mb-7 sm:blur-[1px] hover:blur-[0]">.</span>
             </div>
             <!---Tabs-->
             <div class="flex items-center gap-10 text-md max-[623px]:gap-2">
-                <h6 class="cursor-pointer text-[#776e6e] transition-all duration-150  hover:border-b-2 border-[#c8f04d] hover:text-white hover:text-lg active:text-sm active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">ABOUT</h6>
-                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">WORK</h6>
-                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] transition-all duration-150 hover:text-lg active:text-sm hover:text-white max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">EXPERIENCE</h6>
-                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">CONTACT</h6>
+                <a href="#test" class="cursor-pointer text-[#776e6e] transition-all duration-150  hover:border-b-2 border-[#c8f04d] hover:text-white hover:text-lg active:text-sm active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">ABOUT</a>
+                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">WORK</a>
+                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] transition-all duration-150 hover:text-lg active:text-sm hover:text-white max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">EXPERIENCE</a>
+                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">CONTACT</a>
             </div>
             <!--Hire Me button-->
-            <button class="bg-[#c8f04d] font-bold p-1.5 px-5 rounded-3xl hover:bg-[#a8d030] text-[#3f3e3e] text-shadow text-shadow-red-800 max-[756px]:hidden transition-all duration-100 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0.5 active:shadow-md active:text-[#000000]">
-                <h2>Hire Me</h2>
+            <button class="cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#c8f04d] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none hidden md:block">
+                <h2 class="font-bold">Hire Me</h2>
             </button>
         </div>
     </navbar>
@@ -34,7 +34,10 @@
         <div class="flex flex-wrap w-full h-auto">
             <!--Profile photo section-->
             <div class="w-[45%] h-150 max-[1487px]:w-full text-white">
-                portfilio
+                <div class="group">
+                    <img src="/Nikhil.png" alt="Nikhil" class="h-[80vh] object-contain group-hover:hidden">
+                    <img src="/nikhil1.jpeg" alt="Nikhil" class="h-[80vh] object-contain hidden group-hover:block">
+                </div> 
             </div>
             <!--Text area-->
             <div class="border-b-3 border-[#151515]">
@@ -47,7 +50,7 @@
                     <!--code.design-->
                     <div class="ml-5 mt-7 text-[87px] text-[#f0f0f0] leading-[75px] max-[813px]:text-[10vw] max-[813px]:leading-[10vw] ">
                         <h1 class="font-[Brotesk] transition-all duration-75 hover:text-[92px] ">Code.</h1>
-                        <h1 class="font-[Brotesk] text-[#c8f04d] blur-[2px] transition-all duration-75 hover:text-[97px] hover:blur-[0px]">Design.</h1>
+                        <h1 class="font-[Brotesk] text-[#c8f04d] sm:blur-[2px] transition-all duration-75 hover:text-[97px] hover:blur-[0px]">Design.</h1>
                         <h1 class="font-[Brotesk] transition-all duration-75 hover:translate-y-2">Innovation.</h1>
                     </div>
                     <!--subtitle-->
@@ -55,7 +58,7 @@
                         <p>UI/UX Designer & Frontend Developer based in San Francisco. I turn complex problems into elegant, intuitive products.</p>
                     </div>
                     <div class="flex mt-18">
-                        <button class="bg-[#c8f04d] w-[200px] h-[60px] ml-6 font-bold gap-1.5 flex justify-center pt-4 px-2 rounded-3xl hover:bg-[#a8d030] text-[#3f3e3e] text-shadow text-shadow-red-800 transition-all duration-100 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0.5 active:shadow-md active:text-[#000000]">
+                        <button class=" flex w-fit gap-2 justify-center items-center cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#c8f04d] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none">
                             <h2>View My Work</h2>
                             <i class="fa-solid fa-arrow-down-long pt-1"></i>
                         </button>
@@ -68,6 +71,6 @@
             </div>
         </div>
     </hero>
-    <div class="min-h-screen"></div>
+    <div class="min-h-screen" id="test"></div>
 </body>
 </html> 
