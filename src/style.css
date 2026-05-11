@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "Pirates";
+  src: url("./assets/fonts/MATURASC_1.ttf");
+}
+@font-face {
+    font-family: "Mine";
+    src: url("./assets/fonts/MATURASC_1.otf");
+}
+@font-face {
+    font-family: "Brotesk";
+    src: url("./assets/fonts/roc-grotesk-extra-wide-bold.otf");
+}

@@ -3,33 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="/src/style.css" rel="stylesheet">
 </head>
-<body class="relative bg-[#000000]">
-      <div class="absolute top-2 right-5 h-72 w-72 rounded-full bg-gradient-to-r from-cyan-400/40 via-blue-500/20 to-transparent blur-3xl z-50"></div>
+<body class="relative bg-[#0a0a0a]">
     <navbar>
-        <div class="w-[90vw] mx-auto rounded-full h-16 bg-black/20 backdrop-blur-lg px-6 border-b-2 border-b-gray-700 flex items-center justify-between sticky top-5">
+        <div class="w-[90vw] mx-auto my-3 rounded-full h-16 bg-black/1 backdrop-blur-xs px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
             <!---Name-->
-            <div class="flex items-center">
-                <h6 class="text-2xl text-amber-50 ">Nikhil</h6>
-                <h6 class="text-5xl text-green-400 mb-3.5 ">.</h6>
+            <div class="flex items-center ">
+                <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk] blur-[1px] hover:blur-[0px]">Nikhil</h6>
+                <span class="text-5xl text-[#c8f04d] mb-7 blur-[1px] hover:blur-[0]">.</span>
             </div>
             <!---Tabs-->
-            <div class="flex items-center gap-10 text-md ">
-                <h6 class="cursor-pointer text-gray-500 hover:border-b-2 border-green-400 hover:text-white">ABOUT</h6>
-                <h6 class="cursor-pointer text-gray-500 hover:border-b-2 border-green-400 hover:text-white">WORK</h6>
-                <h6 class="cursor-pointer text-gray-500 hover:border-b-2 border-green-400 hover:text-white">EXPERIENCE</h6>
-                <h6 class="cursor-pointer text-gray-500 hover:border-b-2 border-green-400 hover:text-white">CONTACT</h6>
+            <div class="flex items-center gap-10 text-md max-[623px]:gap-4">
+                <h6 class="cursor-pointer text-[#776e6e] transition-all duration-150  hover:border-b-2 border-[#c8f04d] hover:text-white hover:text-lg active:text-sm active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">ABOUT</h6>
+                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">WORK</h6>
+                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] transition-all duration-150 hover:text-lg active:text-sm hover:text-white max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">EXPERIENCE</h6>
+                <h6 class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#c8f04d] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#c8f04d] active:border-b-2">CONTACT</h6>
             </div>
             <!--Hire Me button-->
-            <button class="bg-green-400 font- p-1.5 px-5 rounded-3xl hover:bg-green-300 text-white text-shadow text-shadow-red-800">
-                Hire Me
-                <i class="fa-solid fa-arrow-right"></i>
+            <button class="bg-[#c8f04d] font-bold p-1.5 px-5 rounded-3xl hover:bg-[#a8d030] text-[#3f3e3e] text-shadow text-shadow-red-800 max-[756px]:hidden transition-all duration-100 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0.5 active:shadow-md active:text-[#000000]">
+                <h2>Hire Me</h2>
             </button>
-
         </div>
     </navbar>
-    <img src="box1.jpg" class="h-48">
-    <div class="h-[200vh]"></div>
+    <hero>
+        <!---Hero Section-->
+        <div class="flex flex-wrap w-full h-auto">
+            <!--Profile photo section-->
+            <div class="w-[45%] h-150 max-[1487px]:w-full text-white">
+                portfilio
+            </div>
+            <!--Text area-->
+            <div class="border-b-3 border-[#151515]">
+                <div class="inline">
+                    <!--live  button-->
+                    <h2 class=" w-[160px] h-[30px] flex justify-center bg-green-400/25 text-sm font-bold gap-2 ml-4 mt-6 pt-1 text-[#9ebe3f] rounded-full border-[0.5px] border-[#9ebe3f]">
+                        <i class="fa-solid fa-circle text-[10px] mt-1.5 text-[#9ebe3f81]"></i>
+                        Working on Skills
+                    </h2>
+                    <!--code.design-->
+                    <div class="ml-5 mt-7 text-[87px] text-[#f0f0f0] leading-[75px] max-[813px]:text-[10vw] max-[813px]:leading-[10vw] ">
+                        <h1 class="font-[Brotesk] transition-all duration-75 hover:text-[92px] ">Code.</h1>
+                        <h1 class="font-[Brotesk] text-[#c8f04d] blur-[3px] transition-all duration-75 hover:text-[97px] hover:blur-[0px]">Design.</h1>
+                        <h1 class="font-[Brotesk] transition-all duration-75 hover:translate-y-2">Innovation.</h1>
+                    </div>
+                    <!--subtitle-->
+                    <div class=" m-6 w-sm text-[#778888] text-lg">
+                        <p>UI/UX Designer & Frontend Developer based in San Francisco. I turn complex problems into elegant, intuitive products.</p>
+                    </div>
+                    <div class="flex mt-18">
+                        <button class="bg-[#c8f04d] w-[200px] h-[60px] ml-6 font-bold gap-1.5 flex justify-center pt-4 px-2 rounded-3xl hover:bg-[#a8d030] text-[#3f3e3e] text-shadow text-shadow-red-800 transition-all duration-100 hover:-translate-y-0.5 hover:shadow-xl active:translate-y-0.5 active:shadow-md active:text-[#000000]">
+                            <h2>View My Work</h2>
+                            <i class="fa-solid fa-arrow-down-long pt-1"></i>
+                        </button>
+                        <h1 class="my-4 mx-3 underline text-[#f0f0f0] hover:text-[#a9d85a]">
+                            Let's Talk
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </hero>
+    <div class="min-h-screen"></div>
 </body>
-</html>
+</html> 
