@@ -11,3 +11,6 @@
     font-family: "Brotesk";
     src: url("./assets/fonts/roc-grotesk-extra-wide-bold.otf");
 }
+html{
+  scroll-behavior: smooth;
+}
