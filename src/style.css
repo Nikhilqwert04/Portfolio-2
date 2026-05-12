@@ -1,18 +1,24 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: "Pirates";
   src: url("./assets/fonts/MATURASC_1.ttf");
 }
+
 @font-face {
-    font-family: "Mine";
-    src: url("./assets/fonts/MATURASC_1.otf");
+  font-family: "Mine";
+  src: url("./assets/fonts/MATURASC_1.otf");
 }
+
 @font-face {
-    font-family: "Brotesk";
-    src: url("./assets/fonts/roc-grotesk-extra-wide-bold.otf");
+  font-family: "Brotesk";
+  src: url("./assets/fonts/roc-grotesk-extra-wide-bold.otf");
 }
+
 @keyframes float {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px);
   }
 
@@ -20,8 +26,11 @@
     transform: translateY(-20px);
   }
 }
+
 @keyframes live {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
@@ -31,6 +40,16 @@
     transform: scale(1.1);
   }
 }
-html{
+@keyframes badge {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+html {
   scroll-behavior: smooth;
 }

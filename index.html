@@ -1,16 +1,19 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="/src/style.css" rel="stylesheet">
+    <link href="/src/style.css" rel="stylesheet">
 </head>
+
 <body class="relative bg-[#111111]">
     <navbar>
-        <div class="z-20 w-[90vw] mx-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
+        <div
+            class="z-20 w-[90vw] mx-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
             <!---Name-->
             <div class="flex items-center">
                 <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk]">Nikhil</h6>
@@ -18,32 +21,41 @@
             </div>
             <!---Tabs-->
             <div class="flex items-center gap-10 text-md max-[623px]:gap-2">
-                <a href="#test" class="cursor-pointer text-[#776e6e] transition-all duration-150  hover:border-b-2 border-[#cfff45] hover:text-white hover:text-lg active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">ABOUT</a>
-                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">WORK</a>
-                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] transition-all duration-150 hover:text-lg active:text-sm hover:text-white max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">EXPERIENCE</a>
-                <a href="#" class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">CONTACT</a>
+                <a href="#test"
+                    class="cursor-pointer text-[#776e6e] transition-all duration-150  hover:border-b-2 border-[#cfff45] hover:text-white hover:text-lg active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">ABOUT</a>
+                <a href="#"
+                    class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">WORK</a>
+                <a href="#"
+                    class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] transition-all duration-150 hover:text-lg active:text-sm hover:text-white max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">EXPERIENCE</a>
+                <a href="#"
+                    class="cursor-pointer text-[#776e6e] hover:border-b-2 border-[#cfff45] hover:text-white transition-all duration-150 hover:text-lg active:text-sm  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">CONTACT</a>
             </div>
             <!--Hire Me button-->
-            <button class="cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none hidden md:block">
+            <button
+                class="cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none hidden md:block">
                 <h2 class="font-bold">Hire Me</h2>
             </button>
         </div>
     </navbar>
     <hero id="UP">
         <!---Hero Section-->
-        <div class="flex flex-wrap h-auto" >
+        <div class="flex flex-wrap h-auto">
             <!--Profile photo section-->
-            <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw] relative"> 
-                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 bottom-50 animate-[float_7s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+            <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw] relative">
+                <div
+                    class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 bottom-50 animate-[float_7s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
                     <img src="/diamond.png" alt="diamond" class="">
                 </div>
-                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-16 top-16 animate-[float_4s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+                <div
+                    class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-16 top-16 animate-[float_4s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
                     <img src="/lightning.png" alt="diamond" class="">
                 </div>
-                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-11 bottom-30 animate-[float_3s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+                <div
+                    class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-11 bottom-30 animate-[float_3s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
                     <img src="/web-development.png" alt="diamond" class="">
                 </div>
-                <div class="h-16 w-55 bg-[#1a1a1a]/20 backdrop-blur-xl gap-3 border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 left-0 bottom-0 animate-[float_8s_ease-in-out_infinite] max-[530px]:h-[15vw] max-[530px]:w-[55vw] max-[500px]:p-[2vw]">
+                <div
+                    class="h-16 w-55 bg-[#1a1a1a]/20 backdrop-blur-xl gap-3 border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 left-0 bottom-0 animate-[float_8s_ease-in-out_infinite] max-[530px]:h-[15vw] max-[530px]:w-[55vw] max-[500px]:p-[2vw]">
                     <i class="fa-solid fa-circle text-green-500 animate-[live_1s_ease-in-out_infinite]"></i>
                     <p class="text-[#908181]">Developing Frontend</p>
                 </div>
@@ -53,22 +65,29 @@
             <div class="border-b-3 border-[#151515] w-auto h-[50vh]">
                 <div class="max-w-[90vw] overflow-hidden h-[90vh]">
                     <!--live  button-->
-                    <h2 class=" w-[160px] h-[30px] flex justify-center bg-green-400/25 text-sm font-bold gap-2 ml-4 mt-6 pt-1 text-[#9ebe3f] rounded-full border-[0.5px] border-[#9ebe3f]">
-                        <i class="fa-solid fa-circle text-[10px] mt-1.5 text-[#9ebe3f81] animate-[live_1s_ease-in-out_infinite]"></i>
+                    <h2
+                        class=" w-[160px] h-[30px] flex justify-center bg-green-400/25 text-sm font-bold gap-2 ml-4 mt-6 pt-1 text-[#9ebe3f] rounded-full border-[0.5px] border-[#9ebe3f]">
+                        <i
+                            class="fa-solid fa-circle text-[10px] mt-1.5 text-[#9ebe3f81] animate-[live_1s_ease-in-out_infinite]"></i>
                         Working on Skills
                     </h2>
                     <!--code.design-->
-                    <div class="ml-5 mt-7 text-[87px] text-[#f0f0f0] leading-[75px] max-[813px]:text-[10vw] max-[813px]:leading-[10vw] ">
+                    <div
+                        class="ml-5 mt-7 text-[87px] text-[#f0f0f0] leading-[75px] max-[813px]:text-[10vw] max-[813px]:leading-[10vw] ">
                         <h1 class="font-[Brotesk] transition-all duration-75 hover:text-[92px] ">Code.</h1>
-                        <h1 class="font-[Brotesk] text-[#cfff45] sm:blur-[2px] transition-all duration-75 hover:text-[97px] hover:blur-[0px]">Design.</h1>
+                        <h1
+                            class="font-[Brotesk] text-[#cfff45] sm:blur-[2px] transition-all duration-75 hover:text-[97px] hover:blur-[0px]">
+                            Design.</h1>
                         <h1 class="font-[Brotesk] transition-all duration-75 hover:translate-y-2">Innovation.</h1>
                     </div>
                     <!--subtitle-->
                     <div class=" m-6 text-[#778888] text-wrap">
-                        <p>UI/UX Designer & Frontend Developer. I turn complex problems into elegant, intuitive products.</p>
+                        <p>UI/UX Designer & Frontend Developer. I turn complex problems into elegant, intuitive
+                            products.</p>
                     </div>
                     <div class="flex mt-10 ml-6 w-auto">
-                        <button class=" flex w-fit gap-2 justify-center items-center cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none">
+                        <button
+                            class=" flex w-fit gap-2 justify-center items-center cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none">
                             <h2>View My Work</h2>
                             <i class="fa-solid fa-arrow-down-long pt-1"></i>
                         </button>
@@ -81,20 +100,97 @@
             </div>
         </div>
     </hero>
+    <!-- loop Section -->
+    <section class="py-8 bg-[#0a0a0a] overflow-hidden border-y border-[#1a1a1a] mt-1">
+        <div class="flex whitespace-nowrap animate-[badge_30s_linear_infinite]">
+            <div class="flex items-center gap-12 px-6">
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Development</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Brand Identity</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Motion Dejlkjsign</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Product Strlkjlategy</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Design Systlkjlkems</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Prototylkjlkjping</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">User Reslkjlearch</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">UI/UX Dlkjlesign</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-12 px-6">
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Developlkjlment</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Brand Idlkjentity</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Motion Dlkjlesign</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Product Strjlkjategy</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Design Sylkjstems</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">Prototlkjlyping</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">User Reslkjlearch</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-star text-[#cfff45] text-[10px]"></i>
+                    <span class="text-[#888] font-[Brotesk] text-xl uppercase tracking-widest">UI/UX Dlkjesign</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="fixed bottom-8 left-1/2 -translate-x-1/2 ">
 
-            <div class="flex items-center gap-4 bg-[#111111]/10 backdrop-blur-[5px] border border-[#222] px-5 py-3 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.5)] ">
+            <div
+                class="flex items-center gap-4 bg-[#111111]/10 backdrop-blur-[5px] border border-[#222] px-5 py-3 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.5)] ">
 
-                <a  href="#UP" class="flex justify-center items-center w-12 h-12 rounded-full bg-white text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                <a href="#UP"
+                    class="flex justify-center items-center w-12 h-12 rounded-full bg-white text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
                     <i class="fa-solid fa-angle-up"></i>
                 </a>
 
-                <a  href="#UP" class="flex justify-center items-center w-14 h-14 rounded-full bg-[#cfff45] text-black text-xl  shadow-xl hover:shadow-[0_4px_0_rgba(200,240,77,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
-                     <i class="fa-solid fa-house"></i>
+                <a href="#UP"
+                    class="flex justify-center items-center w-14 h-14 rounded-full bg-[#cfff45] text-black text-xl  shadow-xl hover:shadow-[0_4px_0_rgba(200,240,77,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                    <i class="fa-solid fa-house"></i>
                 </a>
 
-                <a  href="#DOWN" class="flex justify-center items-center w-12 h-12 rounded-full bg-white border border-[#2a2a2a] text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                <a href="#DOWN"
+                    class="flex justify-center items-center w-12 h-12 rounded-full bg-white border border-[#2a2a2a] text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
                     <i class="fa-solid fa-angle-down"></i>
                 </a>
             </div>
@@ -102,6 +198,7 @@
     </section>
     <div class="min-h-screen" id="test"></div>
     <footer id="DOWN"></footer>
-    
+
 </body>
-</html> 
+
+</html>
