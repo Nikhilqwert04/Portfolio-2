@@ -10,7 +10,7 @@
 </head>
 <body class="relative bg-[#111111]">
     <navbar>
-        <div class="w-[90vw] mx-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
+        <div class="z-20 w-[90vw] mx-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
             <!---Name-->
             <div class="flex items-center">
                 <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk]">Nikhil</h6>
@@ -31,18 +31,30 @@
     </navbar>
     <hero id="UP">
         <!---Hero Section-->
-        <div class="flex flex-wrap w-screen h-auto" >
+        <div class="flex flex-wrap h-auto" >
             <!--Profile photo section-->
-            <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw]"> 
-                <div></div>
+            <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw] relative"> 
+                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 bottom-50 animate-[float_7s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+                    <img src="/diamond.png" alt="diamond" class="">
+                </div>
+                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-16 top-16 animate-[float_4s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+                    <img src="/lightning.png" alt="diamond" class="">
+                </div>
+                <div class="h-14 w-15 bg-[#1a1a1a] border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 right-11 bottom-30 animate-[float_3s_ease-in-out_infinite] max-[530px]:h-[10vw] max-[530px]:w-[10vw] max-[500px]:p-[2vw]">
+                    <img src="/web-development.png" alt="diamond" class="">
+                </div>
+                <div class="h-16 w-55 bg-[#1a1a1a]/20 backdrop-blur-xl gap-3 border border-[#9b979772] rounded-2xl flex justify-center items-center absolute p-3 ml-2 left-0 bottom-0 animate-[float_8s_ease-in-out_infinite] max-[530px]:h-[15vw] max-[530px]:w-[50vw] max-[500px]:p-[2vw]">
+                    <i class="fa-solid fa-circle text-green-500 animate-[live_1s_ease-in-out_infinite]"></i>
+                    <p class="text-[#908181]">Developing Frontend</p>
+                </div>
                 <img src="/PixelNikhil.png" alt="Profile" class="bg-cover w-auto">
             </div>
             <!--Text area-->
-            <div class="border-b-3 border-[#151515] w-auto">
+            <div class="border-b-3 border-[#151515] w-auto h-[50vh]">
                 <div class="max-w-[90vw] overflow-hidden h-[90vh]">
                     <!--live  button-->
                     <h2 class=" w-[160px] h-[30px] flex justify-center bg-green-400/25 text-sm font-bold gap-2 ml-4 mt-6 pt-1 text-[#9ebe3f] rounded-full border-[0.5px] border-[#9ebe3f]">
-                        <i class="fa-solid fa-circle text-[10px] mt-1.5 text-[#9ebe3f81]"></i>
+                        <i class="fa-solid fa-circle text-[10px] mt-1.5 text-[#9ebe3f81] animate-[live_1s_ease-in-out_infinite]"></i>
                         Working on Skills
                     </h2>
                     <!--code.design-->
