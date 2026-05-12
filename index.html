@@ -12,7 +12,7 @@
     <navbar>
         <div class="w-[90vw] mx-auto my-3 rounded-full h-16 bg-black/1 backdrop-blur-xs px-6 border-2 border-[#131313] flex items-center justify-between sticky top-5">
             <!---Name-->
-            <div class="flex items-center ">
+            <div class="flex items-center">
                 <h6 class="text-2xl text-[#f0f0f0] font-[Brotesk] sm:blur-[1px] hover:blur-[0px]">Nikhil</h6>
                 <span class="text-5xl text-[#c8f04d] mb-7 sm:blur-[1px] hover:blur-[0]">.</span>
             </div>
@@ -29,15 +29,13 @@
             </button>
         </div>
     </navbar>
-    <hero>
+    <hero id="UP">
         <!---Hero Section-->
-        <div class="flex flex-wrap w-full h-auto">
+        <div class="flex flex-wrap w-full h-auto" >
             <!--Profile photo section-->
-            <div class="w-[45%] h-150 max-[1487px]:w-full text-white">
-                <div class="group">
-                    <img src="/Nikhil.png" alt="Nikhil" class="h-[80vh] object-contain group-hover:hidden">
-                    <img src="/nikhil1.jpeg" alt="Nikhil" class="h-[80vh] object-contain hidden group-hover:block">
-                </div> 
+            <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw]"> 
+                <div></div>
+                <img src="/PixelNikhil.png" alt="Profile" class="bg-cover w-auto ">
             </div>
             <!--Text area-->
             <div class="border-b-3 border-[#151515]">
@@ -71,6 +69,27 @@
             </div>
         </div>
     </hero>
+    <section>
+        <div class="fixed bottom-8 left-1/2 -translate-x-1/2 ">
+
+            <div class="flex items-center gap-4 bg-[#111111]/10 backdrop-blur-[5px] border border-[#222] px-5 py-3 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.5)] ">
+
+                <a  href="#UP" class="flex justify-center items-center w-12 h-12 rounded-full bg-white text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                    <i class="fa-solid fa-angle-up"></i>
+                </a>
+
+                <a  href="#UP" class="flex justify-center items-center w-14 h-14 rounded-full bg-[#c8f04d] text-black text-xl  shadow-xl hover:shadow-[0_4px_0_rgba(200,240,77,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                     <i class="fa-solid fa-house"></i>
+                </a>
+
+                <a  href="#DOWN" class="flex justify-center items-center w-12 h-12 rounded-full bg-white border border-[#2a2a2a] text-black text-lg hover:shadow-[0_4px_0_rgba(255,255,255,0.5)] hover:-translate-y-1 active:translate-y-1 active:shadow-[0_0_0_rgba(255,255,255,0.5)] md:active:translate-y-0 transition-all duration-150">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
     <div class="min-h-screen" id="test"></div>
+    <footer id="DOWN"></footer>
+    
 </body>
 </html> 
