@@ -1,3 +1,4 @@
+
 # Portfolio-2
 
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
@@ -18,9 +19,9 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near-instant Hot Module Replacement (HMR).
 - **🎨 Next-Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS-first engine for modern UI components.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
+- **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
 - **📦 Asset-Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
-
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
