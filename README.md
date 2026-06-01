@@ -26,9 +26,9 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
 - **📦 Asset‑Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
-- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and newly added HireAI projects, complete with screenshots, tech stack details, and related assets.
-- **👤 About Me Section:** New personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
-- **🔗 Social Media Links with Icons:** Integrated LinkedIn and LeetCode icons that link to respective profiles, improving connectivity.
+- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and HireAI projects, complete with screenshots and tech stack details.
+- **👤 About Me Section:** Personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
+- **📞 Dedicated Contact Section:** A newly integrated contact area featuring social media links with custom assets for Instagram, Twitter, LinkedIn, and LeetCode to improve connectivity.
 - **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
 ## 🛠 Tech Stack
 
