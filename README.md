@@ -9,20 +9,23 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 ## 🚀 Overview
 
-**Portfolio-2** is a refined personal website project that leverages the power of **Vite** and the cutting-edge **Tailwind CSS v4**. It serves as a digital resume and project showcase, featuring a rich set of custom icons and a streamlined development workflow.
+**Portfolio-2** is a refined personal website project that leverages the power of **Vite** and the cutting‑edge **Tailwind CSS v4**. It serves as a digital resume and project showcase, featuring a rich set of custom icons and a streamlined development workflow.
 
 - **Target Audience:** Developers, Recruiters, and Tech Enthusiasts.
 - **Status:** Active Development / v0.0.0.
+- **New Projects Section:** Highlights the **Monopoly** project with screenshots, description, and associated assets, providing a concrete example of my work.
 
 ## ✨ Features
 
-- **⚡ Blazing Fast Performance:** Optimized build process using Vite for near-instant Hot Module Replacement (HMR).
-- **🎨 Next-Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS-first engine for modern UI components.
+- **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
+- **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
 - **✨ Polished UI & Animations:** Features refined navbar aesthetics, smooth hover animations, and precise component positioning for an enhanced user experience.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
-- **📦 Asset-Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
+- **📦 Asset‑Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
+- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly project, complete with screenshots, tech stack details, and related assets.
+
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
