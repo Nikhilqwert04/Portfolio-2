@@ -15,7 +15,8 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **Status:** Active Development / v0.0.0.
 - **New Projects Section:** Highlights the **Monopoly** and **HireAI** projects with screenshots, descriptions, and associated assets, providing concrete examples of my work.
 - **About Me Section:** Introduced a dedicated About Me area with personal branding assets, giving visitors a quick insight into my background and interests.
-
+- **🌐 Social Media Integration:** Added LinkedIn and LeetCode icons with direct links, allowing visitors to connect instantly.
+- **🖋 Profile Text Styling:** Updated the profile text styling for clearer readability and a more modern look.
 ## ✨ Features
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
@@ -27,7 +28,8 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
 - **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and newly added HireAI projects, complete with screenshots, tech stack details, and related assets.
 - **👤 About Me Section:** New personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
-
+- **🔗 Social Media Links with Icons:** Integrated LinkedIn and LeetCode icons that link to respective profiles, improving connectivity.
+- **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
