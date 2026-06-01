@@ -13,7 +13,8 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **Target Audience:** Developers, Recruiters, and Tech Enthusiasts.
 - **Status:** Active Development / v0.0.0.
-- **New Projects Section:** Highlights the **Monopoly** project with screenshots, description, and associated assets, providing a concrete example of my work.
+- **New Projects Section:** Highlights the **Monopoly** and **HireAI** projects with screenshots, descriptions, and associated assets, providing concrete examples of my work.
+- **About Me Section:** Introduced a dedicated About Me area with personal branding assets, giving visitors a quick insight into my background and interests.
 
 ## ✨ Features
 
@@ -24,7 +25,8 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
 - **📦 Asset‑Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
-- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly project, complete with screenshots, tech stack details, and related assets.
+- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and newly added HireAI projects, complete with screenshots, tech stack details, and related assets.
+- **👤 About Me Section:** New personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
 
 ## 🛠 Tech Stack
 
