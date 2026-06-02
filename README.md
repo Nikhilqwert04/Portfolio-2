@@ -22,7 +22,6 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
-- **📈 Comprehensive Web Analytics:** Integrated Vercel Web Analytics and corrected Google Tag Manager script syntax to ensure seamless, error-free visitor tracking and engagement monitoring.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
