@@ -30,7 +30,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
 - **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and HireAI projects, complete with screenshots and tech stack details.
 - **👤 About Me Section:** Personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
-- **📞 Dedicated Contact Section:** A newly integrated contact area featuring social media links with custom assets for Instagram, Twitter, LinkedIn, and LeetCode to improve connectivity.
+- **📞 Interactive Contact & Refined Footer:** Features an interactive contact heading link and polished footer styling, alongside social media links with custom assets (Instagram, Twitter, LinkedIn, LeetCode) for enhanced connectivity.
 - **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
 ## 🛠 Tech Stack
 
