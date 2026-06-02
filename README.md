@@ -23,12 +23,12 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
-- **✨ Polished UI & Animations:** Features refined navbar aesthetics, smooth hover animations, and precise component positioning for an enhanced user experience.
+- **✨ Polished UI & Animations:** Features refined navbar aesthetics, updated UI text labels, smooth hover animations, and precise component positioning for an enhanced user experience.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
 - **📦 Asset‑Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
 - **🛠 Minimalist Architecture:** Clean directory structure designed for easy maintenance and scalability.
-- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and HireAI projects, complete with screenshots and tech stack details.
+- **🗂 Projects Showcase:** Dedicated Projects section featuring the Monopoly and HireAI projects, complete with screenshots, tech stack details, and newly improved project descriptions.
 - **👤 About Me Section:** Personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
 - **📞 Interactive Contact & Refined Footer:** Features an interactive contact heading link and polished footer styling, alongside social media links with custom assets (Instagram, Twitter, LinkedIn, LeetCode) for enhanced connectivity.
 - **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
