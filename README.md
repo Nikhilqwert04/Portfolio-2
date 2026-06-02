@@ -13,6 +13,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **Target Audience:** Developers, Recruiters, and Tech Enthusiasts.
 - **Status:** Active Development / v0.0.0.
+- **📊 Updated Project Stats & Labels:** Refreshed project statistics and section titles with new, descriptive labels for improved clarity and presentation.
 - **New Projects Section:** Highlights the **Monopoly** and **HireAI** projects with screenshots, descriptions, and associated assets, providing concrete examples of my work.
 - **About Me Section:** Introduced a dedicated About Me area with personal branding assets, giving visitors a quick insight into my background and interests.
 - **🌐 Social Media Integration:** Added LinkedIn and LeetCode icons with direct links, allowing visitors to connect instantly.
@@ -21,6 +22,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
+- **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
 - **✨ Polished UI & Animations:** Features refined navbar aesthetics, updated UI text labels, smooth hover animations, active states, scale effects, and precise component positioning for an enhanced user experience.
