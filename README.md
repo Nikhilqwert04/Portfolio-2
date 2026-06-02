@@ -21,6 +21,8 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
+- **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
+- **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
 - **✨ Polished UI & Animations:** Features refined navbar aesthetics, smooth hover animations, and precise component positioning for an enhanced user experience.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
@@ -90,21 +92,20 @@ The project uses Tailwind CSS v4. Configuration is primarily handled via the `@t
 
 ### Development
 To run the project in development mode with HMR:
-```bash
+bash
 npm run dev
-```
+
 
 ### Production Build
 To create an optimized production build in the `dist/` folder:
-```bash
+bash
 npm run build
-```
+
 
 ### Preview
 To preview the production build locally:
-```bash
+bash
 npm run preview
-```
 
 ## 🛠 Development Guidelines
 
