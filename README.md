@@ -22,6 +22,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
+- **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement for enhanced user engagement.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
@@ -34,7 +35,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **👤 About Me Section:** Personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
 - **📞 Interactive Contact & Refined Footer:** Features an interactive contact heading link and polished footer styling, alongside social media links with custom assets (Instagram, Twitter, LinkedIn, LeetCode) for enhanced connectivity.
 - **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
-- **🎯 Enhanced Interactivity:** Integrated active states, scale effects, and dynamic script-based hover class assignments for a more tactile, responsive, and flexible user experience.
+- **🎯 Enhanced Interactivity:** Integrated active states, scale effects, and dynamic script-based interactions for a more tactile, responsive, and flexible user experience.
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
