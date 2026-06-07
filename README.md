@@ -34,7 +34,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **👤 About Me Section:** Personal introduction area with custom branding assets, enhancing the portfolio’s narrative.
 - **📞 Interactive Contact & Refined Footer:** Features an interactive contact heading link and polished footer styling, alongside social media links with custom assets (Instagram, Twitter, LinkedIn, LeetCode) for enhanced connectivity.
 - **🖋 Updated Profile Text Styling:** Refined typography and spacing for the profile section, delivering a cleaner visual hierarchy.
-- **🎯 Enhanced Interactivity:** Integrated active states, scale effects, and improved layout consistency across UI elements for a more tactile and responsive feel.
+- **🎯 Enhanced Interactivity:** Integrated active states, scale effects, and dynamic script-based hover class assignments for a more tactile, responsive, and flexible user experience.
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
@@ -112,10 +112,9 @@ npm run preview
 
 ## 🛠 Development Guidelines
 
-- **Styling**: Use Tailwind utility classes directly in the HTML. For custom components, use the `@theme` block in `src/style.css`.
+- **Styling**: Use Tailwind utility classes directly in the HTML, or dynamically assign them via JavaScript (`script.js`) for interactive states. For custom components, use the `@theme` block in `src/style.css`.
 - **Assets**: Place general icons in `/public` for direct referencing and specific UI assets in `src/assets` for Vite processing.
 - **Code Style**: Follow standard ESM (ECMAScript Modules) practices.
-
 ## 🗺 Roadmap
 
 - [ ] Integration of a contact form (Formspree or custom backend).
