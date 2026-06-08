@@ -12,30 +12,16 @@ let NavTexts = document.querySelectorAll("#main a")
 let isOpen = false;
 icon.addEventListener("click", function () {
     if (!isOpen) {
-        navbar.style.animation =
-            "mobileMenuOpen .6s ease forwards";
-        setTimeout(function () {
-            NavTexts.forEach(function (NavText) {
-                NavText.classList.remove("hidden")
-            })
-        }, 300)
+        navbar.style.animation ="mobileMenuOpen .6s ease forwards";
     } 
     else {
-        navbar.style.animation =
-            "mobileMenuClose .6s ease forwards";
-        NavTexts.forEach(function (NavText) {
-            NavText.classList.add("hidden")
-        })
+        navbar.style.animation ="mobileMenuClose .6s ease forwards";
     }
     isOpen = !isOpen;
 })
 NavTexts.forEach(function (NavText) {
     NavText.addEventListener("click", function () {
-        navbar.style.animation =
-            "mobileMenuClose .6s ease forwards";
-        NavTexts.forEach(function (link) {
-            link.classList.add("hidden")
-        });
+        navbar.style.animation ="mobileMenuClose .6s ease forwards";
         isOpen = false;
     })
 })
