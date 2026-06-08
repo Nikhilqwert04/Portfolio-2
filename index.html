@@ -31,36 +31,82 @@
     </script>
 </head>
 
-<body class="relative bg-[#111111] box-border">
+<body class="relative bg-[#111111] box-border ">
     <navbar>
         <div
-            class="z-20 w-[90vw] mx-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md px-6 border border-[#676363] flex items-center justify-between sticky top-5 shadow-[0_4px_0_0_rgba(166,209,47,0.4)]">
-            <!---Name-->
-            <div class="flex items-center">
-                <a href="#UP" class="text-2xl text-[#f0f0f0] font-[Brotesk]">Nikhil</a>
-                <span class="text-5xl text-[#cfff45] mb-7 sm:blur-[1px] hover:blur-[0]">.</span>
+            class="z-20 w-[90vw] mt-auto my-3 rounded-full h-16 bg-[#1a1a1a]/20 backdrop-blur-md  border border-[#676363] flex flex-col items-center  fixed left-1/2 -translate-x-1/2 top-5 md:shadow-[0_4px_0_0_rgba(166,209,47,0.4)]  " id="manv">
+            
+            <div class="flex items-center justify-between pl-3 w-[97%]  top-0 rounded-full">
+                <!---Name-->
+                <div class=" w-auto flex items-center ">
+                    <a href="#UP" class="text-2xl text-[#f0f0f0] font-[Brotesk] pb-2">Nikhil</a>
+                    <span class="text-5xl text-[#cfff45] mb-7 sm:blur-[1px] hover:blur-[0]">.</span>
+                </div>
+                <!---Tabs-->
+                <div class="flex items-center gap-10 text-md max-[623px]:gap-2 pb-2">
+                    <a href="#About" class=" sample1 cursor-pointer text-[#776e6e] transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">ABOUT</a>
+                    <a href="#Work"
+                        class="sample1 cursor-pointer text-[#776e6e]  transition-all duration-150   active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">WORK</a>
+                    <a href="#Expertise"
+                        class="sample1 cursor-pointer text-[#776e6e] transition-all duration-150  active:text-sm max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">EXPERTISE</a>
+                    <a href="#Contact" 
+                        class="sample1 cursor-pointer text-[#776e6e] transition-all duration-150  active:text-sm  max-[700px]:hidden active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">CONTACT
+                    </a>
+                    <i class="fa-solid fa-bars nav text-[#776e6e] text-2xl pl-4 hidden max-[702px]:block active:text-[#cfff45] transition-all duration-100">
+</i>
+                </div>
+                <!--Hire Me button-->
+                <button
+                    class=" w-25 h-8 cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none hidden md:block relative mb-3">
+                    <h2 class="font-bold absolute top-1 left-5 ">Discover</h2>
+                </button>
             </div>
-            <!---Tabs-->
-            <div class="flex items-center gap-10 text-md max-[623px]:gap-2">
-                <a href="#About"
-                    class=" sample1 cursor-pointer text-[#776e6e] transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">ABOUT</a>
-                <a href="#Work"
-                    class="sample1 cursor-pointer text-[#776e6e]  transition-all duration-150   active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">WORK</a>
+            <div class="flex flex-col justify-center content-center items-center " id="main">
+                <a href="#About" class="sample1 cursor-pointer text-[#cfff45] font-extrabold text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2 hidden">ABOUT
+                </a>
+
+                <a href="#Work" class="sample1 cursor-pointer text-[#cfff45] font-extrabold text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2 hidden">WORK
+                </a>
+
                 <a href="#Expertise"
-                    class="sample1 cursor-pointer text-[#776e6e] transition-all duration-150  active:text-sm max-[553px]:hidden  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">EXPERTISE</a>
+                    class="sample1 cursor-pointer text-[#cfff45] font-extrabold text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2 hidden">EXPERTISE
+                </a>
+
                 <a href="#Contact"
-                    class="sample1 cursor-pointer text-[#776e6e] transition-all duration-150  active:text-sm  active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">CONTACT</a>
+                    class="sample1 cursor-pointer text-[#cfff45] font-extrabold text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2 hidden">CONTACT
+                </a>
             </div>
-            <!--Hire Me button-->
-            <button
-                class=" w-25 h-8 cursor-pointer rounded-lg bg-neutral-100 p-3 text-neutral-500 shadow-[0_4px_0_0_rgba(0,0,0,0.15)] transition-all duration-200 hover:translate-y-[2px] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.15)] active:translate-y-[4px] active:shadow-none sm:p-[10px] dark:bg-[#cfff45] dark:text-[#131313] dark:shadow-[0_4px_0_0_#a1c13d] dark:hover:shadow-[0_2px_0_0_#a1c13d] dark:active:shadow-none hidden md:block relative">
-                <h2 class="font-bold absolute top-1 left-5">Discover</h2>
-            </button>
         </div>
     </navbar>
+<!--
+    <div class="w-[80vw] h-auto fixed left-1/2 -translate-x-1/2 top-22 z-20 bg-[#1a1a1a]/20 backdrop-blur-md">
+        <div class="flex flex-col justify-center content-center items-center">
+            <a href="#About"
+                class="sample1 cursor-pointer text-[#776e6e] text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">
+                ABOUT
+            </a>
+
+            <a href="#Work"
+                class="sample1 cursor-pointer text-[#776e6e] text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">
+                WORK
+            </a>
+
+            <a href="#Expertise"
+                class="sample1 cursor-pointer text-[#776e6e] text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">
+                EXPERTISE
+            </a>
+
+            <a href="#Contact"
+                class="sample1 cursor-pointer text-[#776e6e] text-2xl py-4 transition-all duration-150 active:text-sm active:text-[#f0f0f0] active:border-[#cfff45] active:border-b-2">
+                CONTACT
+            </a>
+        </div>
+    </div>
+-->
+    </section>
     <hero id="UP">
         <!---Hero Section-->
-        <div class="flex flex-wrap h-auto">
+        <div class="flex flex-wrap h-auto mt-">
             <!--Profile photo section-->
             <div class="h-auto w-auto mx-auto min-[1364px]:w-[40vw] relative">
                 <div
@@ -403,7 +449,7 @@
         <div class="max-w-[90vw] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div
                 class="bg-black border border-[#676363] rounded-2xl flex flex-col justify-between overflow-hidden min-h-[200px] group/project hover:border-[#cfff45] animation-all duration-100 ease-initial">
-                <img src="Project1.jpg" alt="Project1" class="group-hover/project:scale-105 animation-all duration-300">
+                <img src="Project1.jpg" alt="Project1" class="group-hover/project:scale-105 transition-all duration-300">
                 <div class="h-auto w-auto z-1 flex justify-between bg-black">
                     <div class="text-white ml-4 mt-4 font['Mine'] text-xl font-[600]"><span
                             class="text-[#cfff45] text-2xl font-['Pirates']">M</span>onopoly</div>
@@ -452,7 +498,7 @@
             </div>
             <div
                 class="bg-black border border-[#676363] rounded-2xl flex flex-col justify-between overflow-hidden min-h-[200px] group/project hover:border-[#cfff45] animation-all duration-100 ease-initial">
-                <img src="Project2.jpg" alt="Project1" class="group-hover/project:scale-103 animation-all duration-300">
+                <img src="Project2.jpg" alt="Project1" class="group-hover/project:scale-103 transition-all duration-300">
                 <div class="h-auto w-auto z-1 flex justify-between bg-black">
                     <div class="text-white ml-4 mt-4 font['Mine'] text-xl font-[600]"><span
                             class="text-[#cfff45] text-2xl font-['Pirates']">H</span>ire <span
@@ -492,11 +538,11 @@
         <div class="w-auto h-auto flex justify-center gap-10 flex-wrap">
             <div class="bg-[#cfff45] h-auto rounded-3xl overflow-hidden relative">
                 <a href="https://github.com/Nikhilqwert04" target="_blank"><img src="github.png" alt="lo"
-                        class="h-5 absolute right-2 top-3 hover:scale-110 animation-all duration-100 ease-in"></a>
+                        class="h-5 absolute right-2 top-3 hover:scale-110 transition-all duration-100 ease-in"></a>
                 <a href="https://www.linkedin.com/in/nikhilluthra05/" target="_blank"><img src="linkdin.png" alt="lo"
-                        class="h-5 absolute right-2 top-10 hover:scale-110 animation-all duration-100 ease-in"></a>
+                        class="h-5 absolute right-2 top-10 hover:scale-110 transition-all duration-100 ease-in"></a>
                 <a href="http://leetcode.com/u/y7xYRcggrv/" target="_blank"><img src="leetcode.png" alt="lo"
-                        class="h-5 absolute right-2 top-18 hover:scale-110 animation-all duration-100 ease-in"></a>
+                        class="h-5 absolute right-2 top-18 hover:scale-110 transition-all duration-100 ease-in"></a>
                 <img src="PixelNikhil.png" alt="Photo" class="h-80">
             </div>
             <div class="flex flex-col">
