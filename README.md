@@ -25,7 +25,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement for enhanced user engagement.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
-- **🔗 Optimized Navigation:** Updated navigation links and corrected section ID identifiers in `index.html` for seamless, error-free page navigation.
+- **🔗 Optimized Navigation:** Refactored mobile menu to use fixed‑height CSS animations for smoother open/close transitions, eliminating visibility toggling and improving responsiveness.
 - **✨ Polished UI & Animations:** Features refined navbar aesthetics, updated UI text labels, smooth hover animations, active states, scale effects, and precise component positioning for an enhanced user experience.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
@@ -72,20 +72,20 @@ The project follows a standard Vite structure optimized for static asset managem
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
+   bash
    git clone https://github.com/Nikhilqwert04/Portfolio-2.git
    cd Portfolio-2
-   ```
+   
 
 2. **Install dependencies:**
-   ```bash
+   bash
    npm install
-   ```
+   
 
 3. **Start the development server:**
-   ```bash
+   bash
    npm run dev
-   ```
+   
    The application will be available at `http://localhost:5173`.
 
 ### Configuration
@@ -110,6 +110,7 @@ npm run build
 To preview the production build locally:
 bash
 npm run preview
+
 
 ## 🛠 Development Guidelines
 
