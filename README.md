@@ -23,6 +23,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
 - **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement for enhanced user engagement.
+- **🔍 Interactive Discover Button:** Features a dynamic hover animation on the "Discover Me" button that expands its width and reveals an icon on hover for a more engaging call-to-action.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Refactored mobile menu to use fixed‑height CSS animations for smoother open/close transitions, eliminating visibility toggling and improving responsiveness.
