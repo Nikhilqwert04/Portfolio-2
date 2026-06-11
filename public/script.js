@@ -25,3 +25,19 @@ NavTexts.forEach(function (NavText) {
         isOpen = false;
     })
 })
+
+//Discorver me button
+let discoverbtn = document.querySelector(".discoverbtn");
+let discovericon = document.querySelector(".discovericon");
+
+discoverbtn.addEventListener("mouseover",function(){
+    discoverbtn.classList.remove("w-29");
+    discoverbtn.classList.add("w-32");
+    discovericon.classList.remove("hidden");
+})
+
+discoverbtn.addEventListener("mouseout",function(){
+    discoverbtn.classList.remove("w-32");
+    discoverbtn.classList.add("w-29");
+    discovericon.classList.add("hidden");
+})
