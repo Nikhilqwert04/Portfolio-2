@@ -22,12 +22,12 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
-- **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement for enhanced user engagement.
+- **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement, seamlessly transitioning to custom image-preview cursors (`.cursordelay2`, `.cursordelay3`) when hovering over project boards.
 - **🔍 Interactive Discover Button:** Features a dynamic hover animation on the "Discover Me" button that expands its width and reveals an icon on hover for a more engaging call-to-action.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
 - **🎬 Streamlined Hero Animations:** Refactored and polished hero section animations for a more fluid and engaging initial load experience.
 - **🔗 Optimized Navigation:** Refactored mobile menu to use fixed‑height CSS animations for smoother open/close transitions, eliminating visibility toggling and improving responsiveness.
-- **✨ Polished UI & Animations:** Features refined navbar aesthetics, updated UI text labels, smooth hover animations, active states, scale effects, and precise component positioning for an enhanced user experience.
+- **✨ Polished UI & Animations:** Features refined navbar aesthetics, updated UI text labels, active states, and precise component positioning, with complex hover animations streamlined for a cleaner user experience.
 - **📱 Fully Responsive:** Adaptive layouts that provide a seamless experience across mobile, tablet, and desktop devices.
 - **🛤 Career Path Visualization:** Refined layout for showcasing professional milestones and educational background with improved spacing and alignment.
 - **📦 Asset‑Rich:** Includes a comprehensive library of technology icons (Java, Python, MongoDB, Next.js, Socket.io, etc.) for visual skill representation.
