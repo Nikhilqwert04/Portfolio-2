@@ -6,7 +6,8 @@ let icon = document.querySelector(".nav");
 let NavTexts = document.querySelectorAll("#main a")
 let board1 = document.querySelector(".board1");
 let board2 = document.querySelector(".board2");
-
+const QuoteDay = document.querySelector(".QuoteDay")
+const QuoteAuther = document.querySelector(".QuoteAuther")
 
 //Free Cursor
 window.addEventListener("mousemove", function (detail) {
@@ -68,4 +69,14 @@ discoverbtn.addEventListener("mouseout",function(){
     discoverbtn.classList.add("w-29");
     discovericon.classList.add("hidden");
 })
+
+async function GetQuote() {
+	let response = await fetch("https://dummyjson.com/quotes/random");
+	console.log(response);
+	let data = await response.json();
+    QuoteDay.textContent=data.quote;
+    QuoteAuther.textContent=`-${data.author}`;
+};
+
+GetQuote();
 
