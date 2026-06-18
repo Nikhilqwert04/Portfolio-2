@@ -49,7 +49,7 @@ icon.addEventListener("click", function () {
 NavTexts.forEach(function (NavText) {
     NavText.addEventListener("click", function () {
         navbar.style.animation ="mobileMenuClose .6s ease forwards";
-        isOpen = false;
+        isOpen = false; 
     })
 })
 
