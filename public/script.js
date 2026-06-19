@@ -16,24 +16,6 @@ window.addEventListener("mousemove", function (detail) {
 })
 
 
-
-function setupBoard(board, customCursor) {
-    board.addEventListener("mouseenter", () => {
-        cursor.classList.add("hidden");
-        customCursor.classList.remove("hidden");
-    });
-
-    board.addEventListener("mousemove", (e) => {
-        customCursor.style.top = e.clientY - 23 + "px";
-        customCursor.style.left = e.clientX - 23 + "px";
-    });
-
-    board.addEventListener("mouseleave", () => {
-        customCursor.classList.add("hidden");
-        cursor.classList.remove("hidden");
-    });
-}
-
 setupBoard(board1, cursor2);
 setupBoard(board2, cursor3);
 //Animated Menu
