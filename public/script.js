@@ -15,9 +15,6 @@ window.addEventListener("mousemove", function (detail) {
     cursor.style.left = detail.clientX - 23 + "px";
 })
 
-
-setupBoard(board1, cursor2);
-setupBoard(board2, cursor3);
 //Animated Menu
 let isOpen = false;
 icon.addEventListener("click", function () {
