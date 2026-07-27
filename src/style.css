@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Pirates";
-  src: url("./assets/fonts/MATURASC_1.ttf");
+  src: url("./assets/fonts/MATURASC_1.TTF");
 }
 
 @font-face {
   font-family: "Mine";
-  src: url("./assets/fonts/MATURASC_1.otf");
+  src: url("./assets/fonts/MATURASC_1.TTF");
 }
 
 @font-face {

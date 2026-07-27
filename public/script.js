@@ -49,13 +49,20 @@ discoverbtn.addEventListener("mouseout",function(){
     discovericon.classList.add("hidden");
 })
 
-async function GetQuote() {
-	let response = await fetch("https://dummyjson.com/quotes/random");
-	console.log(response);
-	let data = await response.json();
-    QuoteDay.textContent=data.quote;
-    QuoteAuther.textContent=`-${data.author}`;
-};
+const developerQuotes = [
+    { quote: "Programs must be written for people to read, and only incidentally for machines to execute.", author: "Harold Abelson" },
+    { quote: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.", author: "Martin Fowler" },
+    { quote: "First, solve the problem. Then, write the code.", author: "John Johnson" },
+    { quote: "Code is like humor. When you have to explain it, it’s bad.", author: "Cory House" },
+    { quote: "Fix the cause, not the symptom.", author: "Steve Maguire" },
+    { quote: "Simplicity is the soul of efficiency.", author: "Austin Freeman" }
+];
+
+function GetQuote() {
+    const randomIndex = Math.floor(Math.random() * developerQuotes.length);
+    const data = developerQuotes[randomIndex];
+    QuoteDay.textContent = data.quote;
+    QuoteAuther.textContent = `-${data.author}`;
+}
 
 GetQuote();
-
