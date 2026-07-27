@@ -22,6 +22,7 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 
 - **⚡ Blazing Fast Performance:** Optimized build process using Vite for near‑instant Hot Module Replacement (HMR).
 - **🎨 Next‑Gen Styling:** Built with Tailwind CSS v4, utilizing the latest CSS‑first engine for modern UI components.
+- **📦 Modular Codebase:** Highly streamlined `index.html` with client-side interactivity cleanly separated into dedicated external scripts (`public/script.js`) for improved maintainability.
 - **🖱 Custom Cursor Follow Effect:** Implements an immersive custom cursor delay effect (`.cursordelay`) that dynamically tracks mouse movement, seamlessly transitioning to custom image-preview cursors (`.cursordelay2`, `.cursordelay3`) when hovering over project boards.
 - **🔍 Interactive Discover Button:** Features a dynamic hover animation on the "Discover Me" button that expands its width and reveals an icon on hover for a more engaging call-to-action.
 - **📊 Updated Project Stats & Titles:** Features refreshed project statistics and updated section titles with new labels for a more accurate and polished presentation.
@@ -44,16 +45,16 @@ A modern, high-performance developer portfolio designed to showcase technical ex
 | **Vite** | Frontend Tooling & Build Pipeline |
 | **Tailwind CSS v4** | Utility-first CSS Framework |
 | **HTML5 / CSS3** | Core Structure and Styling |
-| **JavaScript (ESM)** | Client-side Logic |
-
+| **JavaScript (ESM)** | Client-side Logic & Interactivity |
 ## 📂 Architecture
 
 The project follows a standard Vite structure optimized for static asset management:
 
-```text
-├── public/                # Static assets (Icons, Logos, Images)
+text
+├── public/                # Static assets (Icons, Logos, Images, Scripts)
 │   ├── PixelNikhil.png    # Profile Avatars
 │   ├── java.png           # Tech Stack Icons
+│   ├── script.js          # Client-side interactivity and animations
 │   └── ...                # Other visual assets
 ├── src/
 │   ├── assets/            # Source-relative assets (Fonts, SVGs)
@@ -61,7 +62,6 @@ The project follows a standard Vite structure optimized for static asset managem
 ├── index.html             # Application Entry Point
 ├── package.json           # Dependencies and Scripts
 └── vite.config.ts         # Vite Configuration
-```
 
 ## 🚀 Getting Started
 
@@ -96,22 +96,27 @@ The project uses Tailwind CSS v4. Configuration is primarily handled via the `@t
 ## 💻 Usage
 
 ### Development
+
 To run the project in development mode with HMR:
+
 bash
 npm run dev
 
 
 ### Production Build
+
 To create an optimized production build in the `dist/` folder:
+
 bash
 npm run build
 
 
 ### Preview
+
 To preview the production build locally:
+
 bash
 npm run preview
-
 
 ## 🛠 Development Guidelines
 
